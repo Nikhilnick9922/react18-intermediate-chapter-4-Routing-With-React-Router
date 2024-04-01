@@ -16,4 +16,17 @@ function App() {
 }
 export default App;
 
-//
+// Introduction 
+
+
+//  we will learn 
+
+//  Setting up routes
+//  Handling Errors 
+//  Navigating Between apges 
+//  Dynamic routes
+//  Nested routes
+//  Private routes
+
+
+//  by the end of it , we will be able to build complex and multipage application 
