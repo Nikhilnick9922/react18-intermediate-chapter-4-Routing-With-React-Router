@@ -28,8 +28,12 @@ ReactDOM.createRoot(
 );
 
  
-//    8. Styling the Active Link
+//    9. Handling Errors
 
-//  in Navgation bar selecting link style 
+//  what if we hit invalid route like `userX`
 
-//  go to Navbar and replace Links with NavLink
+// then it shows generic error page , but we can easily replace with our own
+
+//  routing -> errorPage..tsx     we already has this 
+// but to use this , we have to go to routes.tsx file  and set 
+// errorElement proprerty to ErrorPage

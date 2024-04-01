@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -33,6 +33,4 @@ export default NavBar;
 
  
 
-//  replace Link with NavLInk
-
-//   above also shown way to use other class to select active  using function
+ 
