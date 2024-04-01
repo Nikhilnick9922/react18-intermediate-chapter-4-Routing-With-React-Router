@@ -28,8 +28,10 @@ ReactDOM.createRoot(
 );
 
  
-//   5. Getting Data about the Current Route   
+//   6. Nested Routes 
 
-// sometimes we just want which page we are on , and what parameter values passed in url 
-// we have hook for that 
-//  go to userDetailsPage
+//  in real world applictaions , typically we have navigation bar on top , 
+//  as the user navigate between pages ,  we render different component in `content area`
+// Let's see how can we impliment this
+
+//  routing -> layout.tex
