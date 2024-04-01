@@ -1,12 +1,14 @@
 import {   createBrowserRouter } from "react-router-dom";
 import HomePage from "./HomePage";
 import UserListPage from "./UserListPage";
+import ContactPage from "./ContactPage";
 
 
  
 const router = createBrowserRouter ([
     {path : '/', element : <HomePage/>},  // what we want to render on path
     {path : '/users', element : <UserListPage/>},
+    {path: '/contact' , element : <ContactPage/>}
 ])
 
 
@@ -14,9 +16,4 @@ const router = createBrowserRouter ([
 export default router;
 
 
-
-//  now go to main.tsx and replace app with RouterProvider
-
-//  on click on users , there is user's list , now we have multiple pages in our appication
-
-
+//   added contactPage , in this component on submit we want user to redirect to homepage

@@ -5,7 +5,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import './index.css';
-import router from './routing/routes';
+import router from './routing/Routes';
+ 
  
 
  
@@ -27,7 +28,16 @@ ReactDOM.createRoot(
 );
 
  
+//   3. Navigation
 
-//  INstaead of rendring component like app, we let Router Provdier decide which 
-// component they want to render , depending on the the user's location
-//  this is idea of routing 
+
+// there is problem with users link - look at in network tab
+//  it's full page reload , this is default behavior  of `anchor` elements in html
+
+//  this is not the best place to navigate the users
+// instead of getting  the entire page  , we want to replace only content in this area
+// so we want to replace content of home page component - > with user list componet 
+
+
+
+// got to  homepage.tsx
