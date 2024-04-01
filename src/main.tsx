@@ -5,8 +5,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import './index.css';
-import router from './routing/Routes';
- 
+import router from './routing/routes';
+  
  
 
  
@@ -28,10 +28,8 @@ ReactDOM.createRoot(
 );
 
  
-//   6. Nested Routes 
+//   7. Exercise- Working with Nested Routes
 
-//  in real world applictaions , typically we have navigation bar on top , 
-//  as the user navigate between pages ,  we render different component in `content area`
-// Let's see how can we impliment this
+//  add MasterDetail page , as we click on each user , we see userdetail on right side
 
-//  routing -> layout.tex
+//  routing -> UsersPage.tsx

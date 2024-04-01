@@ -13,15 +13,11 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              {/* <a className="nav-link active" href="#">
-                Home
-              </a> */}
+    
               <Link  className="nav-link" to='/' >Home</Link>
             </li>
             <li className="nav-item">
-              {/* <a className="nav-link" href="#">
-                Users
-              </a> */}
+       
               <Link  className="nav-link" to={'/users'} >Users</Link>
             </li>
           </ul>
@@ -34,4 +30,4 @@ const NavBar = () => {
 export default NavBar;
 
 
-//  replace anchor with link 
+ 
