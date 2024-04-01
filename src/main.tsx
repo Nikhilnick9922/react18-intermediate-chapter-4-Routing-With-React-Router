@@ -19,7 +19,7 @@ ReactDOM.createRoot(
 <React.StrictMode>
     <QueryClientProvider client={queryClient}>
         
-        <RouterProvider router={router} />   {/*  Provide the context for sharing router with our application  */}
+        <RouterProvider router={router} />   
 
        
         <ReactQueryDevtools/>
@@ -28,13 +28,8 @@ ReactDOM.createRoot(
 );
 
  
-//   4. Passing Data with Route Parameters
+//   5. Getting Data about the Current Route   
 
-
-//  so we have learned to setup static routes  like users or contacts
-//  sometimes we need to handle the dynamic routes and passed data to our components throught the url
-
-//  like clcking on user `Mosh` we want to pass user id `1` in the url
-
-
-//  so go to routes.tsx
+// sometimes we just want which page we are on , and what parameter values passed in url 
+// we have hook for that 
+//  go to userDetailsPage
