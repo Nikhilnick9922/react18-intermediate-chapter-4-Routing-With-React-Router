@@ -28,16 +28,13 @@ ReactDOM.createRoot(
 );
 
  
-//   3. Navigation
+//   4. Passing Data with Route Parameters
 
 
-// there is problem with users link - look at in network tab
-//  it's full page reload , this is default behavior  of `anchor` elements in html
+//  so we have learned to setup static routes  like users or contacts
+//  sometimes we need to handle the dynamic routes and passed data to our components throught the url
 
-//  this is not the best place to navigate the users
-// instead of getting  the entire page  , we want to replace only content in this area
-// so we want to replace content of home page component - > with user list componet 
+//  like clcking on user `Mosh` we want to pass user id `1` in the url
 
 
-
-// got to  homepage.tsx
+//  so go to routes.tsx

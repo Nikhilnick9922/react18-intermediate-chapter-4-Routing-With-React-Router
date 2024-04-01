@@ -8,16 +8,11 @@ const HomePage = () => {
         Incidunt, mollitia!
       </p>
       <Link to={'/users'}>Users</Link>
-      {/* <a href="/users">Users</a> */}
-    </>
+     </>
   );
 };
 
 export default HomePage;
 
 
-//  we used link for anchor 
-
-// we can also take user from one page to another programatically
-
-//  go to routers.tsx
+ 

@@ -20,4 +20,4 @@ export default ContactPage;
 
 
 
-// we use useNavigate to navigate user to  different locations
+ 
