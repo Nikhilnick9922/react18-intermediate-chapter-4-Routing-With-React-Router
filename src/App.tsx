@@ -16,17 +16,8 @@ function App() {
 }
 export default App;
 
-// Introduction 
+//  2. Setting Up Routing
 
+// npm i react-router-dom@6.10.0
 
-//  we will learn 
-
-//  Setting up routes
-//  Handling Errors 
-//  Navigating Between apges 
-//  Dynamic routes
-//  Nested routes
-//  Private routes
-
-
-//  by the end of it , we will be able to build complex and multipage application 
+//  routing -> routes.tsx   // create new file
