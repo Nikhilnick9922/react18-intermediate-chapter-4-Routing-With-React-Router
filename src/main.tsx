@@ -28,8 +28,8 @@ ReactDOM.createRoot(
 );
 
  
-//   7. Exercise- Working with Nested Routes
+//    8. Styling the Active Link
 
-//  add MasterDetail page , as we click on each user , we see userdetail on right side
+//  in Navgation bar selecting link style 
 
-//  routing -> UsersPage.tsx
+//  go to Navbar and replace Links with NavLink

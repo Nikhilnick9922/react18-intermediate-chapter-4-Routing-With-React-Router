@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -14,11 +14,12 @@ const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
     
-              <Link  className="nav-link" to='/' >Home</Link>
+              <NavLink  className="nav-link" to='/' >Home</NavLink>
+              {/* <NavLink  className={({isActive})=> isActive? "nav-link actie" : "nav-link"} to='/' >Home</NavLink> */}
             </li>
             <li className="nav-item">
        
-              <Link  className="nav-link" to={'/users'} >Users</Link>
+              <NavLink  className="nav-link" to={'/users'} >Users</NavLink>
             </li>
           </ul>
         </div>
@@ -31,3 +32,7 @@ export default NavBar;
 
 
  
+
+//  replace Link with NavLInk
+
+//   above also shown way to use other class to select active  using function
