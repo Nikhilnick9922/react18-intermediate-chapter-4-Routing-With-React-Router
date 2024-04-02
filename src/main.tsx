@@ -28,12 +28,21 @@ ReactDOM.createRoot(
 );
 
  
-//    9. Handling Errors
+//     10. Private Routes 
 
-//  what if we hit invalid route like `userX`
 
-// then it shows generic error page , but we can easily replace with our own
+//  in real world we often needs to restrict access to certain routes 
+//  to authenticated or loged in users , this are private routes 
 
-//  routing -> errorPage..tsx     we already has this 
-// but to use this , we have to go to routes.tsx file  and set 
-// errorElement proprerty to ErrorPage
+
+//  example , we want to show the usersPage only to authenticated user
+
+//  in hooks -> useAuth.ts  - we have hook for getting the current user 
+
+
+
+// finally 
+//  this appoach is not very scalable  ,every time we want to protect the route
+// first we have to call authHook and check if user then we should redirect the user to login page 
+// we don't want to repeat this in seperal components in application, so next we gonna se
+// how to use Layout in elegant way to solve this problem
