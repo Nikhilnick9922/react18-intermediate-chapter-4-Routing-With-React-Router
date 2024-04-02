@@ -28,21 +28,12 @@ ReactDOM.createRoot(
 );
 
  
-//     10. Private Routes 
-
-
-//  in real world we often needs to restrict access to certain routes 
-//  to authenticated or loged in users , this are private routes 
-
-
-//  example , we want to show the usersPage only to authenticated user
-
-//  in hooks -> useAuth.ts  - we have hook for getting the current user 
+//     11. Layout Routes
 
 
 
-// finally 
-//  this appoach is not very scalable  ,every time we want to protect the route
-// first we have to call authHook and check if user then we should redirect the user to login page 
-// we don't want to repeat this in seperal components in application, so next we gonna se
-// how to use Layout in elegant way to solve this problem
+//  sometimes we need to group routes for enforcing layout , or business rules
+// this is where we use layout routes
+
+
+//  go to UsersPage.tsx
